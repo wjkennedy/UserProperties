@@ -1,0 +1,30 @@
+modules:
+  jira:projectPage:
+    - key: audit-project-page
+      resource: main
+      resolver:
+        function: get-project-audit-data
+      title: Internal Audit Report
+
+  function:
+    - key: get-project-audit-data
+      handler: index.getProjectAuditData
+
+resources:
+  - key: main
+    path: static/build
+
+permissions:
+  scopes:
+    - read:jira-user
+    - read:jira-work
+    - manage:jira-configuration
+    - read:account
+    - manage:jira-configuration
+    - manage:jira-project
+
+app:
+  id: ari:cloud:ecosystem::app/0133d7a4-2138-46cf-aff4-8368833aa113
+  runtime:
+    name: nodejs20.x
+

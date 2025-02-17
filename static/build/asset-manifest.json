@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0d583311.css",
+    "main.js": "./static/js/main.218ee744.js",
+    "@atlaskit-internal_dynamic-table.js": "./static/js/@atlaskit-internal_dynamic-table.f934e0d9.chunk.js",
+    "index.html": "./index.html",
+    "main.0d583311.css.map": "./static/css/main.0d583311.css.map",
+    "main.218ee744.js.map": "./static/js/main.218ee744.js.map",
+    "@atlaskit-internal_dynamic-table.f934e0d9.chunk.js.map": "./static/js/@atlaskit-internal_dynamic-table.f934e0d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d583311.css",
+    "static/js/main.218ee744.js"
+  ]
+}
